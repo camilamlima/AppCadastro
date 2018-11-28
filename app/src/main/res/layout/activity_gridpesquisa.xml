@@ -1,0 +1,134 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="6">
+
+
+    <TextView
+        android:id="@+id/codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="ID"
+        android:textStyle="bold"
+        tools:text="Código:" />
+
+    <TextView
+        android:id="@+id/codigoPessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="ID"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Nome"
+        tools:text="Nome:" />
+
+
+    <TextView
+        android:id="@+id/nomePessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Nome" />
+
+    <TextView
+        android:id="@+id/cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="CPF:" />
+
+    <TextView
+        android:id="@+id/cpfPessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="CPF" />
+
+    <TextView
+        android:id="@+id/idade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Idade:" />
+
+    <TextView
+        android:id="@+id/idadePessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Idade" />
+
+
+    <TextView
+        android:id="@+id/telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Telefone:" />
+
+    <TextView
+        android:id="@+id/telefonePessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="telefone" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/emailPessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_row="2"
+        android:text="email" />
+
+    <Button
+        android:id="@+id/buttonExcluir"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/buttonEditar"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/buttonEditar"
+        android:layout_toStartOf="@+id/buttonEditar"
+        android:background="@android:color/transparent"
+        android:paddingLeft="5dp"
+        android:text="Excluir"
+        android:textColor="#276bea"
+        android:visibility="visible" />
+
+
+</GridLayout>
+
